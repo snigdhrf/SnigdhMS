@@ -17,7 +17,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://snigdhrf.github.io/SnigdhMS/post/project-1/</guid>
-      <description>Built a Machine Learning model that can classify different sportpersons using their images. Did this classification for the following 5 athletets: Lionel Messi, Maria Sharapova, Roger Federer, Serena Williams, Virat Kohli. Engineered features via OpenCV, transforming the images using wavelet transform and used these feautures to train a classifier. Optimized SVM, Logistic Regression, and Random Forest Classifiers using GridsearchCV to reach the best model.    Link to GitHub Repository</description>
+      <description>Created a face recognition model to classify athletes’ face on small datasets with 83% of accuracy and 83% of F1 score for SVM. Enhanced feature engineering using Wavelet transformation of image, highlighting facial features. Optimized parameters using GridSearchCV and best performance achieved for SVM. Improved performance by using Convolutional Neural Networks.    Link to GitHub Repository</description>
     </item>
     
     <item>
@@ -26,8 +26,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://snigdhrf.github.io/SnigdhMS/post/project-2/</guid>
-      <description>Given historical data on loans with information on whether or not the borrower defaulted (charge-off), one can build a model that can predict weather or not a borrower will pay back their loan. This way in the future when the bank gets a new potential customer, it can assess whether or not they are likely to pay back the loan.
-  Link to GitHub Repository</description>
+      <description>Built an ANN model to predict Loan defaults. Prevented overfitting using Keras layers combined with dropouts. Synthetic Minority Oversampling Technique used to improve the model performance as dataset was highly imbalanced. Final model able to recall 74% of the total loan defaults with F1 score of 62%.    Link to GitHub Repository</description>
     </item>
     
     <item>
@@ -42,14 +41,23 @@
     
     <item>
       <title>4. Covid Dataset Dashboard </title>
-      <link>https://snigdhrf.github.io/SnigdhMS/post/project-4/</link>
+      <link>https://snigdhrf.github.io/SnigdhMS/post/project-5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://snigdhrf.github.io/SnigdhMS/post/project-4/</guid>
+      <guid>https://snigdhrf.github.io/SnigdhMS/post/project-5/</guid>
       <description>  Data exploration, transformation, extraction using MySQL Server.
   Created a Dashboard on Tableau Public from the extracted Data containing useful plots.     Link to SQL Code
   Link to Tableau Dashboard
   </description>
+    </item>
+    
+    <item>
+      <title>5. Real Estate Price Prediction | Regression</title>
+      <link>https://snigdhrf.github.io/SnigdhMS/post/project-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://snigdhrf.github.io/SnigdhMS/post/project-4/</guid>
+      <description>Built robust ML models to predict property prices based on certain features like number of bedrooms, square feet, location etc. Cleaned the dataset, removed outliers and did dimensionality reduction. Gridsearchcv used for hyperparameter tunning with 5-fold cross validation implemented to check acuuracy of the best estimator. Final model able to make good price predictions with MSE = 27.98 and STD = 71.13    Link to GitHub Repository</description>
     </item>
     
   </channel>
